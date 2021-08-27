@@ -102,6 +102,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$PATH:$HOME/.composer/vendor/bin # Composer system-wide dependencies
 
 alias sail='./vendor/bin/sail' # project-specific Laravel Sail
+alias sail='./vendor/bin/artisan' # project-specific Laravel Artisan
 
 # for NVM installed through Homebrew
 export NVM_DIR="$HOME/.nvm"
